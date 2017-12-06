@@ -1,2 +1,11 @@
+title: Promold
+description: Prestataire de service en études rhéologique et mécanique.
+address: 43 rue Boursault
+city: 75017 Paris
+country: France
+phone: (+33) 1 40 17 00 41
+email: jfluye@promold.fr
+siret: 424 482 917
+
 sass:
   sass_dir: assets/sass

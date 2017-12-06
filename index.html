@@ -1,11 +1,11 @@
+---
+# index.html
+---
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Promold</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="assets/sass/main.css" />
-    </head>
+
+    {% include head.html %}
+
     <body>
 
         <!-- Wrapper -->
@@ -23,6 +23,7 @@
                     <li><a href="#intro" class="active"><b>Qui sommes-nous</b></a></li>
                     <li><a href="#expertises"><b>Expertises</b></a></li>
                     <li><a href="#moyens"><b>Moyens</b></a></li>
+                    <li><a href="#formation"><b>Formation</b></a></li>
                     <li><a href="#footer"><b>Nous contacter</b></a></li>
                 </ul>
             </nav>
@@ -39,7 +40,7 @@
                             </header>
                             <p>Promold est une société d'ingénierie et de conseil en innovation dans le domaine de la plasturgie. Elle a été créé en 1999 par LUYE Jean-François, docteur en mécanique et matériaux de l'Ecole Nationale Supérieure des Arts et Métiers.</p>
                             <ul class="actions">
-                                <li><a href="generic.html" class="button">En savoir plus</a></li>
+                                <li><a target="_blank" href="generic.html" class="button">En savoir plus</a></li>
                             </ul>
                         </div>
                         <span class="image"><img src="images/pic01.jpg" alt="" /></span>
@@ -48,10 +49,10 @@
                     <header class="major">
                         <h3>Notre success story</a></h3>
                     </header>
-                    <p><span class="image left"><a href="https://www.youtube.com/watch?v=aVQA_v5THHg"><img src="images/success.png" alt="" /></a></span><i>« L'idée est de développer et de commercialiser une technique révolutionnaire de simulation de moulage et d'injection issue des résultats de recherche menés pendant la thèse. Jean-François Luye démarre avec un CAP d'ajusteur dans un Collège d'enseignement technique. Il passe beaucoup de temps en atelier et c'est comme une révélation&hellip; »</i></p>
+                    <p><span class="image left"><a target="_blank" href="https://www.youtube.com/watch?v=aVQA_v5THHg"><img src="images/success.png" alt="" /></a></span><i>« L'idée est de développer et de commercialiser une technique révolutionnaire de simulation de moulage et d'injection issue des résultats de recherche menés pendant la thèse. Jean-François Luye démarre avec un CAP d'ajusteur dans un Collège d'enseignement technique. Il passe beaucoup de temps en atelier et c'est comme une révélation&hellip; »</i></p>
                     <ul class="actions">
-                        <li><a href="http://pole-moveo.org/success-story/promold-la-tpe-tres-innovante/" class="button">Lire notre success story</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=aVQA_v5THHg" class="button special">Regarder sur Youtube</a></li>
+                        <li><a target="_blank" href="http://pole-moveo.org/success-story/promold-la-tpe-tres-innovante/" class="button">Lire notre success story</a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/watch?v=aVQA_v5THHg" class="button special">Regarder sur Youtube</a></li>
                     </ul>
 
                     <header class="major">
@@ -59,13 +60,13 @@
                     </header>
                     <ul class="features">
                         <li>
-                            <span class="image fit"><img src="images/plasteo.jpg" height="100" alt="" /></span>
-                            <h3><a href="http://pole-moveo.org/services-booster-croissance/services-business/moveo-groupement/plasteo/">Groupements de PME pour répondre aux enjeux stratégiques de plasturgie des industriels</a></h3>
-                            <p>Conception et réalisation de pièces thermoplastiques complexes.</p>
+                            <span class="image"><img src="images/plasteo.jpg" height="100" alt="" /></span>
+                            <h3><a target="_blank" href="http://pole-moveo.org/services-booster-croissance/services-business/moveo-groupement/plasteo/">Groupements de PME pour répondre aux enjeux stratégiques de plasturgie des industriels</a></h3>
+                            <p>Objectif : conception et réalisation de pièces thermoplastiques complexes.</p>
                         </li>
                         <li>
-                            <span class="image fit"><img src="images/moveo.png" height="100" alt="" /></span>
-                            <h3><a href="http://pole-moveo.org/">Pôle de compétitivité en R&amp;D Mobilité et Automobile</a></h3>
+                            <span class="image"><img src="images/moveo.png" height="100" alt="" /></span>
+                            <h3><a target="_blank" href="http://pole-moveo.org/">Pôle de compétitivité en R&amp;D Mobilité et Automobile</a></h3>
                             <p>Large communauté française de métiers en innovation de produits et de services dans le domaine de la mobilité.</p>
                         </li>
                     </ul>
@@ -115,6 +116,7 @@
                             <p>Pour une prédiction optimale et robuste de la réalité de vos simulation rhéologique et mécanique</p>
                         </li>
                     </ul>
+
                     <div class="spotlight">
                         <div class="content">
                             <h3>Prépration de modèles</h2>
@@ -122,6 +124,7 @@
                         </div>
                         <span class="image"><img src="images/pic01.jpg" alt="" /></span>
                     </div>
+
                     <div class="spotlight">
                         <span class="image"><img src="images/pic01.jpg" alt="" /></span>
                         <div class="content">
@@ -129,6 +132,7 @@
                             <p>Une photo dans Moldflow.</p>
                         </div>
                     </div>
+
                     <div class="spotlight">
                         <div class="content">
                             <h3>Optimisation des paramètres d'injection</h3>
@@ -136,6 +140,7 @@
                         </div>
                         <span class="image"><img src="images/pic01.jpg" alt="" /></span>
                     </div>
+
                     <div class="spotlight">
                         <span class="image"><img src="images/pic01.jpg" alt="" /></span>
                         <div class="content">
@@ -143,13 +148,32 @@
                             <p>Une photo d'ALMA.</p>
                         </div>
                     </div>
+
                     <div class="spotlight">
-                        <div class="content">
-                            <h3>Recherche et développement</h3>
-                            <p>Voici une photo colorée.</p>
+                        <div class="content" style="text-align: left">
+                            <h3>Quelques outils métiers développés pour le besoin de nos prestations</h3>
+                            <ul>
+                                <li>Optimisation des paramètres pour une meilleure prédiction de l'orientation des fibres dans nos simulations Moldflow/Moldex.</li>
+                                <li>Calcul du post-retrait pour mieux prendre en compte le warpage du produit.</li>
+                                <li>Outil d'aide à la prédiction de porosités dans les pièces injectées.</li>
+                                <li>Post-traitement de la circularité des pièces injectées.</li>
+                            </ul>
                         </div>
-                        <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+                        <span class="image"><img src="images/optimization.png" alt="" /></span>
                     </div>
+
+                    <div class="spotlight">
+                        <span class="image"><img src="images/publication.png" alt="" /></span>
+                        <div class="content" style="margin-left: 20px; text-align: left">
+                            <h3>Publications scientifiques</h3>
+                            <p>Nous contributons aussi à la publication de plusieurs articles de recherche dans des revues scientifiques.</p>
+                            <ol>
+                                <li>Serrano, L., Marco, Y., Le Saux, V., Robert, G., &amp; Charrier, P. (2017). <a target="_blank" href="https://link.springer.com/article/10.1007/s00161-017-0561-2">Fast prediction of the fatigue behavior of short-fiber-reinforced thermoplastics based on heat build-up measurements: Application to heterogeneous cases</a>. Continuum Mechanics and Thermodynamics, 1-21.</li>
+                                <li>Serrano, L. (2015). <a target="_blank" href="https://hal.archives-ouvertes.fr/tel-01240739">Caractérisation thermomécanique du comportement en fatigue des thermoplastiques renforcés de fibres de verre courtes</a>. Thèse de doctorat. Université de Bretagne occidentale.</li>
+                            </ol>
+                        </div>
+                    </div>
+
                 </section>
 
                 <!-- Moyens -->
@@ -159,7 +183,7 @@
                     </header>
 
                     <div align="left">
-                        <h3>Nos logiciels</h3>
+                        <h3>Nos logiciels maîtrisés</h3>
                     </div>
                     <ul class="features">
                         <li>
@@ -171,11 +195,6 @@
                             <span class="image"><img src="images/hyperworks.jpg" height="150" alt="" /></span>
                             <h3>HyperMesh/Optistruct/Radioss</h3>
                             <p>Préparation de modèles; calculs de structures; optimisation topologique</p>
-                        </li>
-                        <li>
-                            <span class="image"><img src="images/aster.png" height="150" alt="" /></span>
-                            <h3>Code_Aster</h3>
-                            <p>Calculs de structures</p>
                         </li>
                         <li>
                             <span class="image"><img src="images/digimat.png" height="150" alt="" /></span>
@@ -194,66 +213,75 @@
                     </div>
                     <ul class="features">
                         <li>
-                            <span class="image"><img src="images/dog.jpg" height="150" alt="Jean-François Luyé"/></span>
-                            <h3><a href="https://www.linkedin.com/in/luye-jean-fran%C3%A7ois-5349338/">Dr. Jean-François Luyé</a></h3>
+                            <span class="image"><img src="images/jf.jpg" height="150" alt="Jean-François Luyé"/></span>
+                            <h3><a target="_blank" href="https://www.linkedin.com/in/luye-jean-fran%C3%A7ois-5349338/">Dr. Jean-François Luyé</a></h3>
                             <p>Manager</p>
                         </li>
                         <li>
-                            <span class="image"><img src="images/dog.jpg" height="150" alt="Martine Uzan"/></span>
+                            <span class="image"><img src="images/martine.jpg" height="150" alt="Martine Uzan"/></span>
                             <h3>Martine Uzan</h3>
                             <p>Spécialiste matériaux</p>
                         </li>
                         <li>
-                            <span class="image"><img src="images/dog.jpg" height="150" alt="Elie Bitboul"/></span>
+                            <span class="image"><img src="images/elie.jpg" height="150" alt="Elie Bitboul"/></span>
                             <h3>Elie Bitboul</h3>
-                            <p>Etudes rhéologiques (Certificat Silver Moldflow)</p>
+                            <p>Etudes rhéologiques</p>
                         </li>
                         <li>
-                            <span class="image"><img src="images/dog.jpg" height="150" alt="Mattieu Chevance"/></span>
+                            <span class="image"><img src="images/mathieu.jpg" height="150" alt="Mathieu Chevance"/></span>
                             <h3>Mattieu Chevance</h3>
-                            <p>Etudes rhéologiques (Certificat Gold Moldflow)</p>
+                            <p>Etudes rhéologiques</p>
                         </li>
                         <li>
-                            <span class="image"><img src="images/dog.jpg" height="150" alt="Nathan Luye"/></span>
+                            <span class="image"><img src="images/nathan.png" height="150" alt="Nathan Luye"/></span>
                             <h3>Nathan Luye</h3>
-                            <p>Préparations de modèles; Etudes rhéologiques (Certificat Silver Moldflow)</p>
+                            <p>Préparations de modèles; Etudes rhéologiques</p>
                         </li>
                         <li>
-                            <span class="image"><img src="images/dog.jpg" height="150" alt="Tianyi Li"/></span>
-                            <h3><a href="https://www.linkedin.com/in/tianyikillua/">Dr. Tianyi Li</a></h3>
+                            <span class="image"><img src="images/tianyi.png" height="150" alt="Tianyi Li"/></span>
+                            <h3><a target="_blank" href="https://www.linkedin.com/in/tianyikillua/">Dr. Tianyi Li</a></h3>
                             <p>R&amp;D; Etudes mécaniques</p>
                         </li>
                     </ul>
                 </section>
+
+                <!-- Formation -->
+                <section id="formation" class="main special">
+                    <header class="major">
+                        <h2>Formation</h2>
+                    </header>
+
+                    <p>Nous assurons également plusieurs types de formations autour de l'injection plastique.</p>
+
+                    <div class="spotlight">
+                        <span class="image"><img src="images/bims.png" alt=""/></span>
+                        <div class="content" style="margin-left: 20px; text-align: left">
+                            <h3>Séminaire BIMS (Brussels Injection Molding Sessions) : Compréhension de l'injection des thermoplastique</h3>
+                            <p>Les logiciels de simulation nécessite de bons spécialistes qualifiés et/ou expérimentés pour une utilisation optimale et une interprétation correcte des résultats. Le but de ce séminaire est d'aider et de développer une meilleure compréhension de la physique des polymères pour les professionnels du moulage par injection ou toutes les autres personnes quel que soit leur niveau scientifique.</p>
+                        </div>
+                    </div>
+
+                    <div class="spotlight">
+                        <div class="content" style="text-align: left">
+                            <h3>Formation Moldflow</h3>
+                            <p>Cette formation illustre quelques aspects pratiques sur l'utilisation du logiciel Moldflow?</p>
+                        </div>
+                        <span class="image"><img src="images/formation.png" alt=""/></span>
+                    </div>
+
+                    <div class="spotlight">
+                        <span class="image"><img src="images/formation.png" alt=""/></span>
+                        <div class="content" style="margin-left: 20px; text-align:left">
+                            <h3>Formation ISPA</h3>
+                            <p>?</p>
+                        </div>
+                    </div>
+
+                </section>
             </div>
 
-            <!-- Footer -->
-            <footer id="footer">
-                <section>
-                    <h2>Aliquam sed mauris</h2>
-                    <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-                </section>
-                <section>
-                    <h2>Promold</h2>
-                    <dl class="alt">
-                        <dt>Siège</dt>
-                        <dd>42/43 rue Boursault &bull; 75017 Paris &bull; France</dd>
-                        <dt>Téléphone</dt>
-                        <dd>(+33) 1 40 17 00 41</dd>
-                        <dt>Email</dt>
-                        <dd><a href="mailto:jfluye@promold.fr">jfluye@promold.fr</a></dd>
-                    </dl>
-                </section>
-                <p class="copyright">&copy; Promold. 42/43 rue Boursault 75017 Paris. Tél : (+33) 1 40 17 00 41. SIRET 424 482 917. <a href="mentions.html">Mentions légales</a>. Design basé sur <a href="https://html5up.net">HTML5 UP</a>.</p>
-            </footer>
-        </div>
+            {% include footer.html %}
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrollex.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
+        </div>
     </body>
 </html>
